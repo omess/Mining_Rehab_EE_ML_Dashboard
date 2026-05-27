@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Ranger_Active_Mine",
+        "class": "disturbed",
+        "description": "Ranger Uranium Mine active pit footprint and infrastructure tailings."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [132.9020, -12.6680],
+            [132.9350, -12.6680],
+            [132.9350, -12.7050],
+            [132.9020, -12.7050],
+            [132.9020, -12.6680]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zone_id": "Kakadu_Reference",
+        "class": "undisturbed",
+        "description": "Pristine savanna forest matrix serving as the target ecological recovery baseline."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [132.9500, -12.6680],
+            [132.9800, -12.6680],
+            [132.9800, -12.7050],
+            [132.9500, -12.7050],
+            [132.9500, -12.6680]
+          ]
+        ]
+      }
+    }
+  ]
+}

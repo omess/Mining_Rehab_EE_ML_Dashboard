@@ -1,0 +1,17 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Optional: Large data storage adjustments if needed later
+# data/raw/*
